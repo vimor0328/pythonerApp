@@ -1,3 +1,4 @@
+import { IconFill } from '@ant-design/icons-react-native'
 import React from 'react'
 import {
   SafeAreaView,
@@ -23,8 +24,10 @@ const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
   body: {
     fontSize: 10,
     textAlign: 'center',
-    marginTop: '10%',
     height: '100%',
+  },
+  icon: {
+    textAlign: 'center',
   },
 })
 
@@ -58,6 +61,15 @@ export default () => {
           >
             {'Python'}
           </Text>
+          <IconFill
+            name={'code-sandbox-circle'}
+            size={50}
+            style={{
+              // @ts-ignore
+              ...styles.icon,
+              color: isDarkMode ? Colors.lighter : Colors.darker,
+            }}
+          />
           <Text
             style={{
               // @ts-ignore

@@ -11,10 +11,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "@ant-design/icons-react-native": "^2.3.1",
+    "@ant-design/react-native": "^4.2.0",
     "@ionic/react": "^5.7.0",
     "@ionic/react-router": "^5.7.0",
     "react": "^17.0.2",
-    "react-native": "^0.65.0"
+    "react-native": "^0.65.0",
+    "react-native-webview": "^11.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",

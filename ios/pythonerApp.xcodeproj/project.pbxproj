@@ -11,6 +11,8 @@
 		2C13DA559E3AEAC3DEE881D5 /* libPods-pythonerApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDFFB64787B665EB66C4DEA /* libPods-pythonerApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FAA6DE282607FC1C0044CA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6DE272607FC1C0044CA6D /* AppDelegate.swift */; };
+		3E388E3AB8094A7DB6E47D22 /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D2540395154E53AD98E85D /* antfill.ttf */; };
+		2B6B792995BA4EC8B3482C05 /* antoutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70E2388FD1D548DFBD41D4B8 /* antoutline.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAA6DE272607FC1C0044CA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = pythonerApp/AppDelegate.swift; sourceTree = "<group>"; };
 		FAA6DE2A2607FC480044CA6D /* pythonerApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pythonerApp-Bridging-Header.h"; path = "pythonerApp/pythonerApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0D2540395154E53AD98E85D /* antfill.ttf */ = {isa = PBXFileReference; name = "antfill.ttf"; path = "../node_modules/@ant-design/icons-react-native/fonts/antfill.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70E2388FD1D548DFBD41D4B8 /* antoutline.ttf */ = {isa = PBXFileReference; name = "antoutline.ttf"; path = "../node_modules/@ant-design/icons-react-native/fonts/antoutline.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				874A550D8457276315C24E3C /* Pods */,
+				22E2319FE5A74BD98BF8E565 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +101,16 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		22E2319FE5A74BD98BF8E565 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				E0D2540395154E53AD98E85D /* antfill.ttf */,
+				70E2388FD1D548DFBD41D4B8 /* antoutline.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -160,6 +175,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3E388E3AB8094A7DB6E47D22 /* antfill.ttf in Resources */,
+				2B6B792995BA4EC8B3482C05 /* antoutline.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
